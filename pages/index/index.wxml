@@ -8,6 +8,18 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{motto}}-{{name}}</text>
   </view>
+  <!-- 数据绑定 -->
+  <view>{{students[0].name}}</view>
+
+  <!-- 数据绑定以列表形式展示 -->
+  <view wx:for="{{students}}">
+    {{item.name}}-{{item.age}}
+  </view>
+  
+  <!-- 事件监听 -->
+  <view>当前计数：{{counter}}</view>
+  <button size="mini" bindtap="addc">++</button>
+  <button size="mini" bindtap="addj">--</button>
 </view>

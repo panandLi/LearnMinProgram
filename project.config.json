@@ -35,7 +35,7 @@
     "packNpmRelationList": []
   },
   "compileType": "miniprogram",
-  "libVersion": "2.0.4",
+  "libVersion": "2.13.1",
   "appid": "wx871386994bf34047",
   "projectname": "wxminpro",
   "debugOptions": {

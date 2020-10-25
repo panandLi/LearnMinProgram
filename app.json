@@ -1,15 +1,16 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
     "pages/about/about",
     "pages/profile/profile"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
     "backgroundTextStyle": "light",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "购物街",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eee"
+
   },
   "tabBar": {
     "selectedColor": "#ff5777",
@@ -19,12 +20,6 @@
       "text": "首页",
       "iconPath": "assets/tabbar/index.png",
       "selectedIconPath": "assets/tabbar/index_a.png"
-    },
-    {
-      "pagePath": "pages/logs/logs",
-      "text": "logs",
-      "iconPath": "assets/tabbar/logs.png",
-      "selectedIconPath": "assets/tabbar/logs_a.png"
     },
     {
       "pagePath": "pages/about/about",

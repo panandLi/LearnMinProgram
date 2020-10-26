@@ -15,7 +15,16 @@ App({
    * 当小程序启动，或从后台进入前台显示，会触发 onShow
    */
   onShow: function (options) {
-    
+    //判断小程序打开场景
+    console.log(options)
+    //拿到场景值
+    switch(options.scene){
+      case 1001:
+        break;
+      case 1005:
+        break;
+    }
+
   },
 
   /**
@@ -30,5 +39,9 @@ App({
    */
   onError: function (msg) {
     
+  },
+  globalDate:{
+    name:'coderpei',
+    age:18
   }
 })
